@@ -1,0 +1,82 @@
+PRACTICAL TASKS ON EVENTS
+1. WINDOW EVENTS – Practice
+ Exercise:
+Create a simple webpage that can:
+•	Show a message "Welcome" when the page opens 
+•	Show a message before printing the page 
+•	Show the window size when the browser is resized
+🔥Challenge:
+Display "You are offline" / "You are online" dynamically without alerts.
+ 2. FORM EVENTS – Practice
+Exercise:
+Create a form with:
+•	Name input 
+•	Email input 
+•	Submit button 
+Task:
+•	Show alert when submitted 
+•	Log value when input changes 
+•	Show message when input loses focus 
+
+3. KEYBOARD EVENTS – Practice
+ Exercise:
+Create an input box.
+ Task:
+•	Show key pressed (onkeydown) 
+•	Show key released (onkeyup) 
+ Hint:event.key
+🔥 Challenge:
+Count how many keys the user types.
+ 4. MOUSE EVENTS – Practice
+Exercise:
+Create a box (div).
+👉 Task:
+•	Change color on hover 
+•	Show alert on click 
+•	Log mouse movement 
+
+🔥 Challenge:
+Make a color-changing box that changes color continuously while moving mouse.
+
+5. DRAG EVENTS – Practice
+Exercise:
+Create:
+•	One draggable box 
+•	One drop area 
+ Task:
+•	Drag item 
+•	Drop inside container 
+•	Show message after drop 
+🔥 Challenge:
+Move the actual element (not just alert).
+6. CLIPBOARD EVENTS – Practice
+✅ Exercise:
+Create an input field.
+ Task:
+•	Show alert on copy 
+•	Show alert on paste 
+•	Show alert on cut 
+ 7. MEDIA EVENTS – Practice
+✅ Exercise:
+Add a video.
+Task:
+•	Show alert when: 
+o	Play 
+o	Pause 
+o	End 
+
+🔥 Challenge:
+Display:
+•	"Playing..." 
+•	"Paused" 
+•	"Finished" 
+inside the page (not alert)
+ FINAL MINI PROJECT (VERY IMPORTANT)
+Build a "Smart Interactive Page" that includes:
+•	Form validation 
+•	Mouse hover effects 
+•	Keyboard typing display 
+•	Drag and drop box 
+•	Online/offline detection 
+•	Video status display
+

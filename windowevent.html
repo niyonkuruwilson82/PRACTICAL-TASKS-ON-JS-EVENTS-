@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Window Events</title>
+</head>
+
+<body onload="pageLoaded()" 
+      onbeforeprint="beforePrint()" 
+      onresize="resizeWindow()" 
+      ononline="goOnline()" 
+      onoffline="goOffline()">
+    
+
+<h2>Window Events Example|EAV KIVUMU TSS|2026</h2>
+
+<p id="message"></p>
+
+<script>
+    // onload
+    function pageLoaded() {
+        document.getElementById("message").innerHTML = "Welcome";
+    }
+
+    // onbeforeprint
+    function beforePrint() {
+        alert("Preparing document for printing...");
+    }
+
+    // onresize
+    function resizeWindow() {
+        document.getElementById("message").innerHTML =
+            "Width: " + window.innerWidth +
+            " Height: " + window.innerHeight;
+    }
+
+    // ononline
+    function goOnline() {
+        document.getElementById("message").innerHTML = "You are online";
+    }
+
+    // onoffline
+    function goOffline() {
+        document.getElementById("message").innerHTML = "You are offline";
+    }
+</script>
+
+</body>
+</html>
